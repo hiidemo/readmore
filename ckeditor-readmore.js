@@ -7,7 +7,11 @@
 	'use strict';
 
 	var $ckeditorReadmore = $('.ckeditor-readmore');
-
+	
+	// your environment language variable 
+	var readmore_less_text = 'show less'
+	var readmore_more_text = 'read more';	
+		
 	var type = $ckeditorReadmore.data('readmore-type');
 	var more_text = $ckeditorReadmore.data('readmore-more-text').length > 0 ? $ckeditorReadmore.data('readmore-more-text') : readmore_less_text;
 	var less_text = $ckeditorReadmore.data('readmore-less-text').length > 0 ? $ckeditorReadmore.data('readmore-less-text') : readmore_more_text;
