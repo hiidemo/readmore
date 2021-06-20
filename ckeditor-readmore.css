@@ -1,0 +1,22 @@
+/**
+ * CKEditor Read more styles.
+ */
+
+.ckeditor-readmore-wrapper .ckeditor-readmore {
+  display: none;
+}
+
+.ckeditor-readmore-wrapper {
+	text-align: center;
+}
+
+.ckeditor-readmore {
+	/* border: 1px solid #ccc; */
+	/* padding: 15px; */
+	text-align: justify;
+}
+
+.ckeditor-readmore-toggler {
+	font-style: italic;
+	color: #2d3b22;
+}
